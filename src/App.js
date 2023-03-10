@@ -1,19 +1,19 @@
 
+import { RouterProvider } from 'react-router-dom';
 import ParticlesBackground from './Components/ParticlesBackground';
+import Router from './Routers/Router';
 
 function App() {
   return (
    
-   <div className="App">
+   <div>
      <ParticlesBackground/>
-     <button className="btn">Button</button>
-    <button className="btn btn-primary">Button</button>
-    <button className="btn btn-secondary">Button</button>
-    <button className="btn btn-accent">Button</button>
-    <button className="btn btn-ghost">Button</button>
-    <button className="btn btn-link">Button</button>
-
+     <div className='max-w-[1440px] mx-auto'>
+     <RouterProvider router={Router}>
       
+     </RouterProvider>
+     </div>
+
     </div>
     
  
