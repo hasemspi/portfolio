@@ -3,7 +3,7 @@ import React from 'react';
 const Profile = () => {
     return (
         <div className='hidden sm:block'>
-            <div className="text-center artboard phone-1">
+            <div className="text-center artboard bords_profile rounded-l-lg">
                 <div className="mt-[70px] mb-5 avatar online">
                     <div className="w-40 rounded-full">
                         <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />

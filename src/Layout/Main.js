@@ -1,25 +1,28 @@
 import React from 'react';
 import { Outlet } from 'react-router-dom';
 import Navber from '../Pages/Navber';
+import Mobile from './Mobile';
 import Profile from './Profile';
 
 const Main = () => {
     return (
         <>
 
-        <div class="flex flex-row my-[100px]">
-            <div class="basis-11/12">
+        <div className="flex flex-row md:mt-[100px]">
+            <div className="basis-full md:mr-8">
                 <div className="card card-side bg-base-100 shadow-xl">
                     <Profile></Profile>
-                        <div className="card-body">
-                            <Outlet></Outlet>  
-                        </div>
+
+                    <div className="basis-full">
+                            <Mobile></Mobile>
+                            <Outlet></Outlet> 
+                    </div>
                 </div>
             </div>
-            <div class="basis-[40px]"></div>
-            <div class="basis-1.5/12">
+             <div className="basis-[40px] hidden sm:hidden"></div>
+            <div className="basis-1.5/12">
                 <Navber></Navber>
-            </div>
+            </div> 
         </div>
 
 

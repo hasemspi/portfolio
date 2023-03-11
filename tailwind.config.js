@@ -2,6 +2,8 @@
 module.exports = {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
+    "./src/**/*.{html,js}",
+    "./node_modules/tw-elements/dist/js/**/*.js"
   ],
   theme: {
     extend: {
@@ -27,7 +29,7 @@ module.exports = {
       },
     ],
   },
-  plugins: [require("daisyui")],
+  plugins: [require("daisyui","tw-elements/dist/plugin")],
   
   daisyui: {
     styled: true,
@@ -39,4 +41,6 @@ module.exports = {
     prefix: "",
     darkTheme: "dark",
   },
+
+
 }

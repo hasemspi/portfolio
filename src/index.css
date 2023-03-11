@@ -15,3 +15,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.MobileMenu{
+  float: right;
+}
+.artboard.phone-61 {
+  width: 210px;
+  height: 600px;
+}
+.bords_profile{
+  background-color: brown;
+  width: 270px;
+  height: 600px;
+}
