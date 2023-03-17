@@ -4,11 +4,7 @@
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Poppins', sans-serif;
 }
 
 code {
@@ -24,7 +20,14 @@ code {
   height: 600px;
 }
 .bords_profile{
-  background-color: brown;
-  width: 270px;
+  background: -webkit-gradient(linear,left top,left bottom,from(#fe6d72),to(#fea621));
+  background: linear-gradient(#fe6d72,#fea621);
+  -webkit-box-shadow: 0 0 100px -5px rgba(0,0,0,.25);
+  -moz-box-shadow: 0 0 100px -5px rgba(0,0,0,.25);
+  box-shadow: 0 0 100px -5px rgba(0,0,0,.25);
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  backface-visibility: hidden;
+  width: 350px;
   height: 600px;
 }

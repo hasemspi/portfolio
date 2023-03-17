@@ -8,7 +8,7 @@ const Main = () => {
     return (
         <>
 
-        <div className="flex flex-row md:mt-[100px]">
+        <div className="flex flex-row md:mt-[100px]" id='theme_color'>
             <div className="basis-full md:mr-8">
                 <div className="card card-side bg-base-100 shadow-xl">
                     <Profile></Profile>
