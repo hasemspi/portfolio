@@ -2,17 +2,18 @@ import React from 'react';
 
 const Home = () => {
     return (
-
-        <div
-          class="rounded-r-lg bg-neutral-100 p-3 text-neutral-700 shadow-lg dark:bg-neutral-600 dark:text-neutral-200 dark:shadow-black/30">
-          <h2 class="mb-5 text-3xl font-semibold">Hello Home section!</h2>
-          <p>
-            This is a simple hero unit, a simple jumbotron-style component for
-            calling extra attention to featured content or information.
-          </p>
- 
+        <div>
+          <div className="hero min-h-[600px] bg-base-100">
+            <div className="hero-content text-center">
+              <div className="max-w-md">
+                <h1 className="text-5xl font-bold animate-pulse
+                 hover:-translate-y-1 hover:scale-110 hover: duration-300">Abul Hasem</h1>
+                <p className="py-6 animate-pulse
+                 hover:-translate-y-1 hover:scale-80 hover: duration-300"> As a Full Stack Web Developer, I have the skills and knowledge to create robust and scalable web applications that provide an excellent user experience.</p>
+              </div>
+            </div>
         </div>
-        
+        </div>
     );
 };
 
